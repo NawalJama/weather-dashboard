@@ -3,3 +3,6 @@ const searchForm = document.getElementById('search-form');
 const cityInput = document.getElementById('city-input');
 const currentWeather = document.getElementById('current-weather');
 const forecast = document.getElementById('forecast');
+
+searchForm.addEventListener('submit', handleSubmit);
+
